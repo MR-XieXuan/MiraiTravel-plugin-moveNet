@@ -1,2 +1,3 @@
-# MiraiTravel-plugin-moveNet
-用于姿态估计的MiraiTravel仓库
+# MiraiTravel-plugin-groupManager
+MiraiTravel-plugin-groupManager 插件 groupManager 用于群管理
+

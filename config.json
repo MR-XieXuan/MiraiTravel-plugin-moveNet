@@ -1,0 +1,11 @@
+{
+    "information": "调用movenet进行姿态估计",
+    "version": "V0.1.0",
+    "author": "Mr-XieXuan",
+    "name": "moveNet",
+    "MTVersion": "V1.1.0",
+    "depend": {
+        "easyMirai": "V0.1.0",
+        "webhook": "V0.1.0"
+    }
+}
