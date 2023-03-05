@@ -1,0 +1,145 @@
+Date : 2023-03-05 16:04:49
+Directory : f:\Project\工作文件夹\MiraiTravel-plugin-moveNet
+Total : 81 files,  5412 codes, 1694 comments, 1024 blanks, all 8130 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| PHP              |         28 |      2,604 |        642 |        411 |      3,657 |
+| Python           |         25 |      1,652 |      1,048 |        428 |      3,128 |
+| Log              |          7 |        465 |          0 |         27 |        492 |
+| Markdown         |         12 |        390 |          1 |        147 |        538 |
+| JSON             |          6 |        249 |          0 |          0 |        249 |
+| Shell Script     |          1 |         38 |          3 |          9 |         50 |
+| pip requirements |          2 |         14 |          0 |          2 |         16 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                     | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                        |         81 |      5,412 |      1,694 |      1,024 |      8,130 |
+| . (Files)                                                                                                |          2 |         18 |          0 |          4 |         22 |
+| miraiTravel                                                                                              |         47 |      3,299 |        635 |        549 |      4,483 |
+| miraiTravel (Files)                                                                                      |          5 |        241 |         14 |         83 |        338 |
+| miraiTravel\components                                                                                   |          2 |        136 |         43 |         17 |        196 |
+| miraiTravel\components\easyMirai                                                                         |          1 |         88 |         24 |         11 |        123 |
+| miraiTravel\components\easyMirai\V0.1.1                                                                  |          1 |         88 |         24 |         11 |        123 |
+| miraiTravel\components\webhook                                                                           |          1 |         48 |         19 |          6 |         73 |
+| miraiTravel\components\webhook\V0.1.1                                                                    |          1 |         48 |         19 |          6 |         73 |
+| miraiTravel\core                                                                                         |         18 |      1,964 |        559 |        309 |      2,832 |
+| miraiTravel\core (Files)                                                                                 |         13 |      1,618 |        544 |        266 |      2,428 |
+| miraiTravel\core\miraiTravelSoftware                                                                     |          5 |        346 |         15 |         43 |        404 |
+| miraiTravel\docs                                                                                         |          7 |        152 |          0 |         61 |        213 |
+| miraiTravel\docs (Files)                                                                                 |          5 |        102 |          0 |         41 |        143 |
+| miraiTravel\docs\QQBot                                                                                   |          1 |         47 |          0 |         15 |         62 |
+| miraiTravel\docs\System                                                                                  |          1 |          3 |          0 |          5 |          8 |
+| miraiTravel\logs                                                                                         |          7 |        465 |          0 |         27 |        492 |
+| miraiTravel\logs (Files)                                                                                 |          4 |        208 |          0 |          1 |        209 |
+| miraiTravel\logs\Script                                                                                  |          3 |        257 |          0 |         26 |        283 |
+| miraiTravel\logs\Script\2771717841                                                                       |          3 |        257 |          0 |         26 |        283 |
+| miraiTravel\plugins                                                                                      |          7 |        316 |          3 |         45 |        364 |
+| miraiTravel\plugins\bilibiliFans                                                                         |          2 |         66 |          0 |         12 |         78 |
+| miraiTravel\plugins\bilibiliFans\V0.1.0                                                                  |          2 |         66 |          0 |         12 |         78 |
+| miraiTravel\plugins\groupManager                                                                         |          2 |        110 |          3 |         15 |        128 |
+| miraiTravel\plugins\groupManager\V0.1.0                                                                  |          2 |        110 |          3 |         15 |        128 |
+| miraiTravel\plugins\runoobC                                                                              |          3 |        140 |          0 |         18 |        158 |
+| miraiTravel\plugins\runoobC\V0.1.0                                                                       |          3 |        140 |          0 |         18 |        158 |
+| miraiTravel\script                                                                                       |          1 |         25 |         16 |          7 |         48 |
+| otherDepend                                                                                              |         31 |      1,980 |      1,051 |        458 |      3,489 |
+| otherDepend\MoveNet                                                                                      |          5 |        281 |        116 |         50 |        447 |
+| otherDepend\MoveNetLite                                                                                  |         26 |      1,699 |        935 |        408 |      3,042 |
+| otherDepend\MoveNetLite (Files)                                                                          |         10 |        671 |        216 |        130 |      1,017 |
+| otherDepend\MoveNetLite\ml                                                                               |          9 |        556 |        414 |        174 |      1,144 |
+| otherDepend\MoveNetLite\tracker                                                                          |          7 |        472 |        305 |        104 |        881 |
+| plugin                                                                                                   |          1 |        115 |          8 |         13 |        136 |
++----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                                                                                 | language         | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\README.md                                                    | Markdown         |          7 |          0 |          4 |         11 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\config.json                                                  | JSON             |         11 |          0 |          0 |         11 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\CODE_OF_CONDUCT.md                               | Markdown         |         93 |          0 |         36 |        129 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\MiraiTravel.php                                  | PHP              |          5 |          4 |          6 |         15 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\README.md                                        | Markdown         |         67 |          1 |         23 |         91 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\components\easyMirai\V0.1.1\easyMirai.php        | PHP              |         88 |         24 |         11 |        123 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\components\webhook\V0.1.1\webhook.php            | PHP              |         48 |         19 |          6 |         73 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\core\component.php                               | PHP              |         39 |         20 |         18 |         77 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\core\componentSystem.php                         | PHP              |         40 |          9 |         11 |         60 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\core\dataSystem.php                              | PHP              |        112 |         25 |         12 |        149 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\core\httpAdapter.php                             | PHP              |         92 |         10 |         11 |        113 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\core\logSystem.php                               | PHP              |        106 |         27 |          9 |        142 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\core\messageChain.php                            | PHP              |        122 |         50 |         22 |        194 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\core\miraiApiHttp.php                            | PHP              |        268 |        165 |         49 |        482 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\core\miraiTravel.php                             | PHP              |        209 |         11 |         25 |        245 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\core\miraiTravelSoftware\config.php              | PHP              |        121 |          3 |         11 |        135 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\core\miraiTravelSoftware\help.php                | PHP              |         22 |          3 |          7 |         32 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\core\miraiTravelSoftware\plugins.php             | PHP              |         55 |          3 |          8 |         66 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\core\miraiTravelSoftware\qqBot.php               | PHP              |         95 |          3 |          9 |        107 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\core\miraiTravelSoftware\stay.php                | PHP              |         53 |          3 |          8 |         64 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\core\plugin.php                                  | PHP              |         23 |         12 |         10 |         45 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\core\pluginSystem.php                            | PHP              |         87 |         35 |         25 |        147 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\core\qqObj.php                                   | PHP              |        444 |        150 |         56 |        650 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\core\scriptSystem.php                            | PHP              |         44 |         13 |          9 |         66 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\core\webhookAdapter.php                          | PHP              |         32 |         17 |          9 |         58 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\docs\Component.md                                | Markdown         |          6 |          0 |          8 |         14 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\docs\MiraiTravel.md                              | Markdown         |         29 |          0 |         10 |         39 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\docs\Plugin.md                                   | Markdown         |          4 |          0 |          4 |          8 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\docs\QQBot.md                                    | Markdown         |         55 |          0 |         15 |         70 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\docs\QQBot\QQBot手册.md                            | Markdown         |         47 |          0 |         15 |         62 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\docs\System.md                                   | Markdown         |          8 |          0 |          4 |         12 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\docs\System\开放对象.md                              | Markdown         |          3 |          0 |          5 |          8 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\loadMiraiTravel.php                              | PHP              |         11 |          3 |          4 |         18 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\logs\Script\2771717841\script.log                | Log              |        102 |          0 |          0 |        102 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\logs\Script\2771717841\sendMessage.log           | Log              |         31 |          0 |         26 |         57 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\logs\Script\2771717841\webhook.log               | Log              |        124 |          0 |          0 |        124 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\logs\httpAdapter.log                             | Log              |         90 |          0 |          0 |         90 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\logs\miraiApiHttp.log                            | Log              |         60 |          0 |          0 |         60 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\logs\miraiTravel.log                             | Log              |          2 |          0 |          0 |          2 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\logs\webhook.log                                 | Log              |         56 |          0 |          1 |         57 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\plugins\bilibiliFans\V0.1.0\bilibiliFans.php     | PHP              |         58 |          0 |         12 |         70 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\plugins\bilibiliFans\V0.1.0\config.json          | JSON             |          8 |          0 |          0 |          8 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\plugins\groupManager\V0.1.0\config.json          | JSON             |         10 |          0 |          0 |         10 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\plugins\groupManager\V0.1.0\groupManager.php     | PHP              |        100 |          3 |         15 |        118 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\plugins\runoobC\V0.1.0\README.md                 | Markdown         |          5 |          0 |          4 |          9 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\plugins\runoobC\V0.1.0\config.json               | JSON             |         10 |          0 |          0 |         10 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\plugins\runoobC\V0.1.0\runoobC.php               | PHP              |        125 |          0 |         14 |        139 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\script\Q2771717841.php                           | PHP              |         25 |         16 |          7 |         48 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\miraiTravel\webhook.php                                      | PHP              |         65 |          6 |         14 |         85 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNetLite\README.md                            | Markdown         |         66 |          0 |         19 |         85 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNetLite\app.py                               | Python           |         36 |          3 |          0 |         39 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNetLite\data.py                              | Python           |         63 |         36 |         22 |        121 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNetLite\json.json                            | JSON             |        123 |          0 |          0 |        123 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNetLite\ml\__init__.py                       | Python           |          4 |         14 |          2 |         20 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNetLite\ml\classifier.py                     | Python           |         41 |         49 |         17 |        107 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNetLite\ml\classifier_test.py                | Python           |         20 |         17 |         10 |         47 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNetLite\ml\movenet.py                        | Python           |        185 |        131 |         43 |        359 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNetLite\ml\movenet_multipose.py              | Python           |         98 |         68 |         25 |        191 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNetLite\ml\movenet_multipose_test.py         | Python           |         50 |         29 |         20 |         99 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNetLite\ml\movenet_test.py                   | Python           |         53 |         27 |         17 |         97 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNetLite\ml\posenet.py                        | Python           |         62 |         54 |         25 |        141 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNetLite\ml\posenet_test.py                   | Python           |         43 |         25 |         15 |         83 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNetLite\pose_estimation.py                   | Python           |        133 |         61 |         25 |        219 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNetLite\requirements.txt                     | pip requirements |          5 |          0 |          1 |          6 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNetLite\setup.sh                             | Shell Script     |         38 |          3 |          9 |         50 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNetLite\test.py                              | Python           |         35 |          4 |         11 |         50 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNetLite\tracker\__init__.py                  | Python           |          6 |         14 |          2 |         22 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNetLite\tracker\bounding_box_tracker.py      | Python           |         34 |         37 |         11 |         82 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNetLite\tracker\bounding_box_tracker_test.py | Python           |         87 |         24 |         16 |        127 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNetLite\tracker\config.py                    | Python           |         13 |         42 |         12 |         67 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNetLite\tracker\keypoint_tracker.py          | Python           |         47 |         61 |         12 |        120 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNetLite\tracker\keypoint_tracker_test.py     | Python           |        207 |         32 |         28 |        267 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNetLite\tracker\tracker.py                   | Python           |         78 |         95 |         23 |        196 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNetLite\utils.py                             | Python           |         96 |         56 |         16 |        168 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNetLite\visualizer.py                        | Python           |         76 |         53 |         27 |        156 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNet\aa.json                                  | JSON             |         87 |          0 |          0 |         87 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNet\app.py                                   | Python           |         68 |         41 |         17 |        126 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNet\kk.py                                    | Python           |         61 |         41 |         17 |        119 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNet\requirements.txt                         | pip requirements |          9 |          0 |          1 |         10 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\otherDepend\MoveNet\test.py                                  | Python           |         56 |         34 |         15 |        105 |
+| f:\Project\工作文件夹\MiraiTravel-plugin-moveNet\plugin\moveNet.php                                           | PHP              |        115 |          8 |         13 |        136 |
+| Total                                                                                                    |                  |      5,412 |      1,694 |      1,024 |      8,130 |
++----------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
