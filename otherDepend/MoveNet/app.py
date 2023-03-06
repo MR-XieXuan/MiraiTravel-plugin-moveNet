@@ -89,23 +89,17 @@ def hello_world():
         image = tf.image.decode_jpeg(image)
     except :
         return "null"
-    # Resize and pad the image to keep the aspect ratio and fit the expected size.
     input_image = tf.expand_dims(image, axis=0)
     input_image = tf.image.resize_with_pad(input_image, input_size, input_size)
 
-    # Run model inference.
     keypoints_with_scores = movenet(input_image)
 
-    # Visualize the predictions with image.
     display_image = tf.expand_dims(image, axis=0)
 
     def draw_prediction_on_image( imageInput , keypoint ):
         keypoint = np.squeeze(keypoint)
         keypoint = np.squeeze(keypoint)
         for point in keypoint :
-        #imageInput[int(1280*point[0])][int(1280*point[1])][0] = 0
-        #imageInput[int(1280*point[0])][int(1280*point[1])][1] = 0
-        #imageInput[int(1280*point[0])][int(1280*point[1])][2] = 0
             plt.plot(1280*point[1],1280*point[0] , 'o')
         return imageInput
         
@@ -115,11 +109,9 @@ def hello_world():
     output_overlay = draw_prediction_on_image(
         np.squeeze(display_image.numpy(), axis=0), keypoints_with_scores)
         
-    #plt.figure(figsize=(5, 5))
-    #np1 = np.squeeze(display_image.numpy(), axis=0)
     plt.imshow(output_overlay)
     plt.axis('off')
     plt.savefig("outputImage/"+image_path , dpi=1000 , bbox_inches='tight',pad_inches = 0)
-    return getData#上传到index.html页面中
+    return getData
 if __name__ == '__main__':
     app.run()

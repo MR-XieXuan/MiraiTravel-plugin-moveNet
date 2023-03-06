@@ -112,8 +112,6 @@ def run(estimation_model: str, tracker_type: str, classification_model: str,
 
     # Draw keypoints and edges on input image
     image = utils.visualize(image, list_persons)
-    plt.imshow(image)
-    plt.show()
     """
     pointJson = []
     for persons in list_persons :
